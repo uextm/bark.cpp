@@ -15,8 +15,6 @@ build/
 .swiftpm
 .venv
 .clang-tidy
-.vs/
-.vscode/
 
 ggml_weights/*
 ggml_weights_*/*
@@ -36,3 +34,13 @@ tests/test-forward-fine
 tests/test-forward-encodec
 
 tests/test-tokenizer
+
+# Visual Studio
+.vs/
+
+# VSCode
+.vscode/
+
+# CLion
+.idea/
+cmake-build-**/
